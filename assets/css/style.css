@@ -3,7 +3,7 @@ nav.box {
     justify-content: flex-end;
     flex-flow: row nowrap;
     align-items: center;
-    width: 900px;
+    width: 60%;
     margin: auto;
 }
 
@@ -13,8 +13,9 @@ nav.box {
 }
 nav.box a {
     position: relative;
-    left: 0%;
-    width: auto;
+    /* left: 25%; */
+    /* width: 60%; */
+    /* margin: 0%; */
     height: auto;
     font-size: 16px;
     padding: 5%;
@@ -47,7 +48,7 @@ img.headShot {
 }
 
 div.navigation {
-    width: 960px;
+    width: 60%;
     margin: auto;
 }
 
@@ -72,13 +73,21 @@ a:active {
     text-decoration: none;
 }
 
-h1 {
+/* h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     display: inline-block;
     position: relative;
     right: 15%;
-    /* width: 300px; */
+} */
+
+header h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline-block;
+    position: relative;
+    right: 15%;
+    padding: 15px;
+    /* visibility: hidden; */
 }
 
 h2 {
@@ -108,11 +117,6 @@ footer {
     background-color: #666666;
 }
 
-header h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    display: inline-block;
-    padding: 15px;
-}
 
 ul {
     display: table;   
