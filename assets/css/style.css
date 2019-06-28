@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
 nav.box {
     display: inline-flex;
     justify-content: flex-end;
@@ -13,20 +15,47 @@ nav.box {
 }
 nav.box a {
     position: relative;
-    /* left: 25%; */
-    /* width: 60%; */
-    /* margin: 0%; */
-    /* display: inline-block; */
     left: 100px;
     height: auto;
     font-size: 16px;
     padding: 0px 10px;
+    line-height: 2rem;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  }
+}
 
-  a.linkBorder {
-      border-right: 1px #777777 solid;
-  }
+nav.box a:after {
+    display: block;
+    /* content: attr(title); */
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+nav.box a:link {
+    text-decoration: none;
+    color: #4aaaa5;
+}
+
+nav.box a:visited {
+    text-decoration: none;
+    color: #4aaaa5;
+}
+
+nav.box a:hover {
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive;
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+nav.box a:active {
+    text-decoration: none;
+}
+
+a.linkBorder {
+    border-right: 1px #777777 solid;
+}
 
 body {
     /* background: orange url(../images/sushi.png) repeat fixed; */
@@ -58,26 +87,6 @@ div.navigation {
     margin: auto;
 }
 
-a:link {
-    text-decoration: none;
-    color: #4aaaa5;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #4aaaa5;
-}
-
-a:hover {
-    text-decoration: none;
-    opacity: .65;
-    background-color: #4aaaa5;
-    color: #fff;
-}
-
-a:active {
-    text-decoration: none;
-}
 
 /* h1 {
     background-color: #4aaaa5;
