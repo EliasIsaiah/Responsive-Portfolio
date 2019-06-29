@@ -6,14 +6,7 @@
 }
 
 @media (max-width: 400px) {
-    div.wrapper {
-        color: #777777;
-        background-color: #ffffff;
-        border-color: #dddddd;
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        margin: auto;
+    .wrapper {
         width: 90%;
-        line-height: 1.2em;
-        padding-bottom: 40px;
     }
 }

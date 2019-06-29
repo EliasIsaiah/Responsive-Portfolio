@@ -75,6 +75,12 @@ div.wrapper {
     padding-bottom: 40px;
 }
 
+@media (max-width: 400px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
 img.headShot {
     height: 243px;
     width: 200px;
