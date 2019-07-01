@@ -69,8 +69,8 @@ div.wrapper {
     background-color: #ffffff;
     border-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: auto;
-    width: 60%;
+    margin: 0 auto;
+    width: 100%;
     line-height: 1.2em;
     padding-bottom: 40px;
 }
@@ -88,11 +88,6 @@ div.navigation {
 }
 
 header h1.big {
-    /* font-family: 'Georgia', Times, Times New Roman, serif;
-    display: inline-block;
-    position: relative;
-    right: 15%;
-    padding: 15px; */
     display: none;
 }
 
