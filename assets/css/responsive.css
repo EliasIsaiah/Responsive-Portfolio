@@ -1,4 +1,4 @@
-@media screen and (min-width: 1473px) {
+@media screen and (min-width: 1359px) {
     div.navigation {
         width: 60%;
         margin: auto;        
@@ -23,13 +23,16 @@
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
-    header h1 {
+    header h1.big {
         font-family: 'Georgia', Times, Times New Roman, serif;
         display: inline-block;
         position: relative;
         /* right: 15%; */
-        padding: 15px;
-        /* visibility: hidden; */
+        padding: 0px 15px;
+    }
+
+    header div.navigation h1.mobile {
+        display: none;
     }
 }
 

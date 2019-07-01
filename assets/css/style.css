@@ -75,12 +75,6 @@ div.wrapper {
     padding-bottom: 40px;
 }
 
-/* @media (max-width: 400px) {
-    .wrapper {
-        width: 90%;
-    }
-} */
-
 img.headShot {
     height: 243px;
     width: 200px;
@@ -93,21 +87,22 @@ div.navigation {
     margin: auto;
 }
 
-/* h1 {
-    background-color: #4aaaa5;
-    color: #ffffff;
+header h1.big {
+    /* font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline-block;
     position: relative;
     right: 15%;
-} */
+    padding: 15px; */
+    display: none;
+}
 
-header h1 {
+header div.navigation h1.mobile {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    display: inline-block;
+    display: inline-flex;
     position: relative;
-    /* right: 15%; */
+    margin: 0 auto;
+    right: 15%;
     padding: 15px;
-    /* visibility: hidden; */
 }
 
 h2 {
