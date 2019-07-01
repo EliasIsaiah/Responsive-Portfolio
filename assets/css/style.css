@@ -2,11 +2,11 @@
 
 nav.box {
     display: inline-flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-flow: row nowrap;
     align-items: center;
-    width: 60%;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .visible {
@@ -14,8 +14,8 @@ nav.box {
     border: 5px solid black;
 }
 nav.box a {
-    position: relative;
-    left: 100px;
+    /* position: relative; */
+    /* left: 100px; */
     height: auto;
     font-size: 16px;
     padding: 0px 10px;
@@ -75,11 +75,11 @@ div.wrapper {
     padding-bottom: 40px;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .wrapper {
         width: 90%;
     }
-}
+} */
 
 img.headShot {
     height: 243px;
@@ -92,7 +92,6 @@ div.navigation {
     width: 60%;
     margin: auto;
 }
-
 
 /* h1 {
     background-color: #4aaaa5;
